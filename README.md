@@ -1,1 +1,11 @@
-# repo-template
+
+  # GudsStats
+
+  This is a code bundle for GudsStats. The original project is available at https://www.figma.com/design/udxLKP4aN38paksePZmwFK/GudsStats.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
