@@ -326,7 +326,7 @@ export function DashboardPage() {
                 color="text-red-600"
               />
               <StatCard
-                title="Nomzodlar"
+                title="Kandidatlar"
                 value={userStats?.candidates || 0}
                 icon={Users}
                 color="text-blue-600"
@@ -369,7 +369,7 @@ export function DashboardPage() {
               <StatusBar
                 title="Foydalanuvchi turlari"
                 items={[
-                  { label: "Nomzodlar", value: userStats?.candidates || 0, total: userStats?.total || 1, color: "#3b82f6" },
+                  { label: "Kandidatlar", value: userStats?.candidates || 0, total: userStats?.total || 1, color: "#3b82f6" },
                   { label: "Ish beruvchilar", value: userStats?.employers || 0, total: userStats?.total || 1, color: "#8b5cf6" },
                   { label: "Xodimlar", value: userStats?.staff || 0, total: userStats?.total || 1, color: "#f97316" }
                 ]}
